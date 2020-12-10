@@ -1,0 +1,138 @@
+@CHARSET "ISO-8859-1";
+
+.infoLink {
+	font-family: Arial;
+	font-size: 13px;
+	color: #666 !important;
+	font-weight: bold;
+}
+
+.requestGestionSignatureButtons {
+	text-align: center;
+}
+
+.requestGestionSignatureButtons a {
+	display: inline-block;
+}
+
+.message-signature {
+	margin: 10px 0 20px 0;
+	font-weight: bold;
+}
+
+.digital-signature-center {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.container-digitalsignature {
+	
+}
+
+.agreement {
+	width: 250px;
+	margin: 0 auto 20px;
+}
+
+.browserWarning {
+	width: 100%;
+	height: 0px;
+	background-color: #f2dede;
+	border-bottom: 1px solid rgb(206, 175, 175);
+	float: left;
+	top: 0;
+	position: absolute;
+	color: #8c5e5e;
+	z-index: 1000;
+	text-align: center;
+	align-items: center;
+}
+
+/** Modal CSS de firma digital **/
+#bacfirma-modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
+	opacity: 0;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow: hidden;
+}
+
+#bacfirma-modal #bacfirma-modal-message {
+	padding: 10px;
+	width: 30%;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+#bacfirma-close {
+	float: right;
+}
+
+#bacfirma-modal-body {
+	text-align: center;
+}
+
+#bacfirma-modal-body h3 {
+	font-size: 24px;
+}
+
+#bacfirma-modal-footer {
+	clear: both;
+}
+
+#bacfirma-retry-btn {
+	float: right;
+}
+
+#step1 button {
+	float: right;
+	cursor: pointer;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 33px;
+	height: 33px;
+	text-align: center;
+	border: none;
+	display: block;
+	width: 130px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #E4002B;
+}
+
+#step2 {
+	display: none;
+}
+
+#error {
+	display: none;
+}
+
+#closeModalImg:hover {
+	content:
+		url('/ebac/ebac2.0/images/common/icons/close_message_hover.png');
+}
+
+#bacfirma-modal-body h3 {
+	margin-bottom: 20px;
+}
+
+#bacfirma-modal-body p {
+	margin-bottom: 10px;
+}
+
+#bacfirma-modal-body p img {
+	margin-top: 10px;
+}
