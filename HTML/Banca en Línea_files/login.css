@@ -1,0 +1,57 @@
+.errorMessage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #C80000;
+	text-decoration: none;	
+}
+
+.loginLabel {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 15pt; FONT-FAMILY: "Trebuchet MS", Arial, sans-serif; 
+}
+
+.linkTop {
+	FONT-SIZE: 10px; COLOR: #004990; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.linkTop A {
+	FONT-SIZE: 10px; COLOR: #004990; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+.NavRuta {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.TitTercerNivel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #004990; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+
+.NavTercer {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Trebuchet MS", Arial, sans-serif; HEIGHT: 18px; BACKGROUND-COLOR: #004990
+}
+
+.BannersNav02 {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 15pt; FONT-FAMILY: "Trebuchet MS", Arial, sans-serif; BACKGROUND-COLOR: #f8f8f8
+}
+
+.BannersNav01 {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 15pt; FONT-FAMILY: "Trebuchet MS", Arial, sans-serif; BACKGROUND-COLOR: #e7e7e7
+}
+
+.contentpadding {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+
+.ingresoLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cf1326; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+
+.imageCorner{
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;	
+}
+
+.centralBoxColor{
+	background-color: #E7E7E7;
+}
