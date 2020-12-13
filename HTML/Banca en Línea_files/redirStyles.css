@@ -437,7 +437,7 @@ input::-webkit-input-placeholder {
 }
 
 #dialog-lock-image{
-	background: white url("/redir/redir2.0/images/common/icons/loading.gif") no-repeat;
+	background: white url("loading.gif") no-repeat;
     background-size: 100% 100%;
     margin: auto;  
     height: 40px;
@@ -671,7 +671,7 @@ input::-webkit-input-placeholder {
 }
 
 .con-divider {
-	background: url(/redir/redir2.0/images/common/icons/converter-line.png) no-repeat 85px;
+	background: url(converter-line.png) no-repeat 85px;
     color: #8F715B;
     font-size: 10px;
     font-weight: bold;
@@ -822,7 +822,7 @@ input::-webkit-input-placeholder {
 }
 
 .show-icon {
-	background: url(/redir/redir2.0/images/common/icons/converter-icon.png) no-repeat;
+	background: url(converter-icon.png) no-repeat;
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -843,7 +843,7 @@ input::-webkit-input-placeholder {
 }
 
 .dropDownFix {
-	background: #fff url("/ebac/ebac2.0/images/common/icons/arrow-down.png")
+	background: #fff url("arrow-down.png")
 		no-repeat right;
 	background: none\0;
 	-webkit-appearance:none;
@@ -858,10 +858,10 @@ input::-webkit-input-placeholder {
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	.combo_style { background: #fff url("/ebac/ebac2.0/images/common/icons/drop-arrows-icon.png")
+	.combo_style { background: #fff url("drop-arrows-icon.png")
 		no-repeat scroll right 15px center;}
 	.dropDownFix{
-		background: #fff url("/ebac/ebac2.0/images/common/icons/arrow-down.png")
+		background: #fff url("arrow-down.png")
 		no-repeat right;
 	}
 }
@@ -1065,7 +1065,7 @@ input::-webkit-input-placeholder {
 	display: inline-block !important;
     width: 100px;
     height: 16px;
-    background: url(/redir/redir2.0/images/module/login/CheckBox_disabled.png) no-repeat;
+    background: url(CheckBox_disabled.png) no-repeat;
     left: 15px;
     top: 225px;
     padding-top: 1px;
@@ -1085,7 +1085,7 @@ input::-webkit-input-placeholder {
 }
 
 .checkRemember:checked+label, .checkToken:checked+label, .checkSignature:checked+label {
-    background:url(/redir/redir2.0/images/module/login/CheckBox_enabled.png) no-repeat;
+    background:url(CheckBox_enabled.png) no-repeat;
 }
 
 /*CRI-19595-0002 Enrollment - Earaya|Interfazsoftware*/
@@ -1093,7 +1093,7 @@ input::-webkit-input-placeholder {
 
 .loginFormHelpIcon {
 	display:none;
-    background: url("/ebac/ebac2.0/images/common/icons/question_hover_icon.png") no-repeat scroll 98%;
+    background: url("question_hover_icon.png") no-repeat scroll 98%;
     background-color: rgba(0,0,0,0);
     cursor: pointer;
     height: 20px;
@@ -1105,7 +1105,7 @@ input::-webkit-input-placeholder {
 }
 
 .loginFormHelpIcon:hover{
-	background: url("/ebac/ebac2.0/images/common/icons/question_normal_icon.png") no-repeat scroll 98%;
+	background: url("question_normal_icon.png") no-repeat scroll 98%;
 }
 
 .loginFormHelpUser {
@@ -1286,7 +1286,7 @@ input::-webkit-input-placeholder {
 }
 
 .radioGroup .radioBtn + label {
-    background-image: url("/redir/redir2.0/images/common/icons/radio_btn.png");
+    background-image: url("radio_btn.png");
     background-repeat: no-repeat;
     background-size: 15px 15px;
     display: inline-block;
@@ -1298,7 +1298,7 @@ input::-webkit-input-placeholder {
 }
 
 .radioGroup .radioBtn:checked + label {
-    background-image: url("/redir/redir2.0/images/common/icons/radio_btn_checked.png");
+    background-image: url("radio_btn_checked.png");
     background-repeat: no-repeat;
     background-size: 15px 15px;
 }
