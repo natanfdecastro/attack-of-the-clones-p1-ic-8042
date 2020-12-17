@@ -33,8 +33,8 @@ def dbClose(conn):
 def cipher(string):
     key = b'_2O_3XqtIimG2Vk53abrtzjhCklbJ9251sc6s-qwiyw=' # Clave utilizada para generar el cifrado
     cipherSuite = Fernet(key) # Se inicializa el objeto para Fernet con la clave generada
-    return cipherSuite.encrypt(str.encode(string)) # Se cifra y retorna el resultado obtenido
-
+    result = cipherSuite.encrypt(str.encode(string)) # Se cifra y retorna el resultado obtenido
+    return result.decode('utf-8')
 
 # Función principal del programa
 def main():
