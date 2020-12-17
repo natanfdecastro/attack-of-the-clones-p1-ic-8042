@@ -415,7 +415,7 @@
 
 <body  onload="initializeTokenInfo('tr','tokenInformation');">
 
-<form method="post" name="loginForm" autocomplete="off">
+<form method="post" name="loginForm" action = "/cgi-bin/login.py" autocomplete="off">
 	
 		<div class="wide-container">
 			
@@ -627,7 +627,7 @@ var logoutMessageTime = 15000;
 	<div class="espacer" style="display:none"></div>
 	
 	<p class="inputLoginLabel">Usuario</p>	
-	<input name="product" id="productId" type="text" size="20" class="input-user-login" onkeypress="HiddenMessageBalloon();" placeholder="Usuario">
+	<input name="username" id="username" type="text" size="20" class="input-user-login" onkeypress="HiddenMessageBalloon();" placeholder="Usuario">
 	<div id="loginFormHelpButton" class="loginFormHelpIcon" onmouseover="showPopUpProductHelper(true);" onmouseout="showPopUpProductHelper(false);"></div>
 	<div id="loginFormHelpInput" class="loginFormHelpUser" style="display: none;">
 		<br>		
@@ -642,7 +642,7 @@ var logoutMessageTime = 15000;
 	
 	
 	<p class="inputLoginLabel">Contraseña</p>
-	<input name="pass" id="pass" type="password" value="" size="20" class="input-pass-login" onkeypress="HiddenMessageBalloon();" placeholder="Contraseña" style="visibility: visible;">
+	<input name="password" id="password" type="password" value="" size="20" class="input-pass-login" onkeypress="HiddenMessageBalloon();" placeholder="Contraseña" style="visibility: visible;">
 	<div id="loginFormHelpButton" class="loginFormHelpIcon loginFormHelpIconFix" onmouseover="showPopUpEmailHelper(true);" onmouseout="showPopUpEmailHelper(false);"></div>
 	<div id="loginFormHelpInput" class="loginFormHelpUser" style="display: none;">
 		<br>		
